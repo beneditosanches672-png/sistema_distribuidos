@@ -1,0 +1,40 @@
+trabalho do dia 26/08/2026 
+Benedito Lourenco dos Santos
+Renan Augusto Ulyas  Queluz
+
+
+Endereço IPv4. . . . . . . .  . . . . . . . : 172.28.128.58
+
+
+
+
+PS C:\Users\quelu> ipconfig
+
+Configuração de IP do Windows
+
+
+Adaptador de Rede sem Fio Conexão Local* 9:
+
+   Estado da mídia. . . . . . . . . . . . . .  : mídia desconectada
+   Sufixo DNS específico de conexão. . . . . . :
+
+Adaptador de Rede sem Fio Conexão Local* 10:
+
+   Estado da mídia. . . . . . . . . . . . . .  : mídia desconectada
+   Sufixo DNS específico de conexão. . . . . . :
+
+Adaptador de Rede sem Fio Wi-Fi:
+
+   Sufixo DNS específico de conexão. . . . . . :
+   Endereço IPv6 de link local . . . . . . . . : fe80::f353:d8d0:88ff:dc5e%12
+   Endereço IPv4. . . . . . . .  . . . . . . . : 172.28.128.58
+   Máscara de Sub-rede . . . . . . . . . . . . : 255.255.192.0
+   Gateway Padrão. . . . . . . . . . . . . . . : 172.28.128.1
+
+Adaptador Ethernet Ethernet:
+
+   Estado da mídia. . . . . . . . . . . . . .  : mídia desconectada
+   Sufixo DNS específico de conexão. . . . . . :
+PS C:\Users\quelu>
+
+não conseguimos acessar o aluno B
