@@ -1,0 +1,13 @@
+refeente ao trabalho CMD
+Resposta de 142.250.219.238: bytes=32 tempo=10ms TTL=115
+Resposta de 142.250.219.238: bytes=32 tempo=8ms TTL=115
+Resposta de 142.250.219.238: bytes=32 tempo=9ms TTL=115
+Resposta de 142.250.219.238: bytes=32 tempo=24ms TTL=115
+
+Estatísticas do Ping para 142.250.219.238:
+    Pacotes: Enviados = 4, Recebidos = 4, Perdidos = 0 (0% de
+    perda),
+Aproximar um número redondo de vezes em milissegundos:
+    Mínimo = 8ms, Máximo = 24ms, Média = 12ms
+
+C:\Users\quelu>
