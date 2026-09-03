@@ -69,3 +69,9 @@ cliente.close()
 
 RESULTADO
 
+
+PS C:\Users\bened\Desktop\Servidor.Py> python .\servidor.py   
+servidor aguardando conexão...
+Cliente conectado: ('127.0.0.1', 62824)
+Mensagem recebida: Olá servidor! Sou o cliente.
+PS C:\Users\bened\Desktop\Servidor.Py> 
