@@ -1,0 +1,71 @@
+Atividade 1
+
+perguntas
+
+1 - Quem solicitou o serviço ?
+ r: O cliente solicita o serviço. ele pode ser um computador, celular ou sistema que envia requisição atraves da rede.
+
+2 - Quem processa a solicitação ?
+ r: Pode ser processada por servidor ou conjunto de servidores, em um sistema distribuido cada servidor fica responsavel por diferentes partes do processamento.
+
+3 - Onde os Dados estão armazenador
+ r: Os dados estão armazenados em um ou varios servidores de armazenamento/banco de dados
+
+4 - Como os componentes se comunicam ?
+  r: Se comunicam atraves de rede de computadores que utilizam protocolos e mecanismos de comunicação como HTTP etc...
+
+5 - Em um sistema distribuido o processamento é distribuido entre diferentes computadores ou servidores como por exemplo:
+
+ cliente
+    |
+servidor A     --- >    Servidor B
+                           |
+Banco de dados  < ---   Servidor C
+
+
+
+
+ATIVIDADE 2
+
+SERVIDOR.PY
+
+import socket
+
+servidor = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+
+servidor.bind(("localhost", 5000))
+
+servidor.listen(1)
+
+print("servidor aguardando conexão...")
+
+conexao, endereco = servidor.accept()
+
+print("Cliente conectado:", endereco)
+
+mensagem = conexao.recv(1024).decode()
+
+print("Mensagem recebida:", mensagem)
+
+conexao.send("Olá! Mensagem recebida pelo servidor.".encode())
+
+conexao.close()
+servidor.close()
+
+CLIENTE.PY
+
+import socket
+cliente = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+
+cliente.connect(("localhost", 5000))
+
+cliente.send("Olá servidor! Sou o cliente.".encode())
+
+resposta = cliente.recv(1024).decode()
+
+print("Resposta de servidor:", resposta)
+
+cliente.close()
+
+RESULTADO
+
