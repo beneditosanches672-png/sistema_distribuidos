@@ -1,0 +1,39 @@
+Cenário 1 — Transferência de um arquivo de trabalho
+TCP OU UDP? 
+justifique
+
+rs: TCP.
+Porque a transferência precisa garantir que todos os dados cheguem corretamente e na ordem certa.
+Caso algum pacote seja perdido durante a transmissão, o TCP consegue retransmiti-lo. Para um arquivo de trabalho,
+perder ou alterar partes do arquivo pode deixá-lo corrompido.
+
+
+Cenário 2 — Sistema de videoconferência
+
+TCP ou UDP?
+
+rs: UDP.
+
+Porque uma videoconferência precisa de baixa latência e transmissão contínua. Se alguns pacotes forem perdidos, 
+é preferível continuar a transmissão do que esperar pela retransmissão deles. Uma pequena perda de áudio ou vídeo é menos prejudicial do que um atraso na
+comunicação.
+
+
+Cenário 3 — Sistema financeiro enviando uma operação crítica
+
+TCP ou UDP?
+
+rs:TCP.
+
+Porque uma operação financeira precisa de confiabilidade e integridade dos dados. A mensagem precisa chegar corretamente e na ordem certa, 
+sem perda de informações. O TCP possui mecanismos para confirmar o recebimento e retransmitir dados que forem perdidos.
+
+
+
+Cenário 4 — Jogo on-line enviando continuamente a posição dos jogadores
+
+TCP ou UDP
+
+rs: UDP.
+
+Porque nesse caso é mais importante ter baixa latência e atualização rápida do que garantir que absolutamente todos os pacotes cheguem
