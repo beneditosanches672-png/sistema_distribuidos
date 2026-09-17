@@ -1,0 +1,17 @@
+1.Qual processo possui as funções soma(), subtracao() e multiplicacao()?
+O servidor possui essas funções e é responsável por executá-las.
+
+2.O cliente possui o código dessas operações?
+Não. O cliente apenas faz a chamada das funções disponíveis no servidor.
+
+3 Qual endereço e porta identificam o serviço?
+O serviço está disponível em localhost:8000.
+
+4 Quem inicia a chamada?
+O cliente inicia a chamada ao solicitar uma operação ao servidor.
+
+5 - O resultado foi calculado no cliente ou no servidor?
+O resultado foi calculado no servidor e depois enviado de volta para o cliente.
+Qual diferença você percebe em relação ao código de sockets TCP da Aula 2?
+No XML-RPC, a comunicação é mais simples, pois o cliente chama funções do servidor diretamente.
+Nos sockets TCP, é necessário controlar manualmente a comunicação entre cliente e servidor, como envio e recebimento de mensagens.
